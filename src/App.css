@@ -1,0 +1,39 @@
+body{
+  text-align: center;
+  background: #dde6ee;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn {
+  width: 200px;
+  padding: 0.5rem;
+  margin-top: 8px;
+  margin-bottom: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  background: #4CAF50;
+  color: #fff;
+  border: 0px;
+  box-shadow: 2px 3px 0px #555;
+  border-radius: 5px;
+}
+
+.success {
+  background: #4CAF50;
+}
+
+.danger {
+  background: #af4c4c;
+}
+
+.btn.success:hover {
+  background: #2a672d;
+}
+
+.btn.danger:hover {
+  background: #672a2a;
+}
+
